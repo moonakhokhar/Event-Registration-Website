@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    background-image:
+        linear-gradient(rgba(224, 224, 224, 0.85), rgba(224, 224, 224, 0.85)),
+        url("banner.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    background-color: #444;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+.navbar a:hover {
+    background-color: #222;
+    border-radius: 5px;
+}
+
+/* Moving Welcome Text */
+.marquee {
+    color: darkblue;
+    font-size: 26px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Main Content */
+.content {
+    margin-top: 60px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* 🔹 readability card */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+
+    color: black;
+}
+
+/* Headings */
+h1, h2 {
+    color: darkblue;
+}
+
+/* Speakers Section */
+.speakers {
+    margin-top: 40px;
+}
+
+.speaker-card {
+    margin: 20px 0;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+button {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002366;
+}
